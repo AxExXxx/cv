@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz 2025!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #000044, #000000);
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 20px 0;
+            color: #FFD700;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            color: #FFD700;
+        }
+
+        .logo {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: white;
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .firework {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background: #FFD700;
+            border-radius: 50%;
+            animation: firework 2s infinite ease-in-out;
+        }
+
+        @keyframes firework {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-300px);
+                opacity: 0;
+            }
+        }
+
+        .firework:nth-child(1) {
+            left: 20%;
+            animation-delay: 0s;
+        }
+        .firework:nth-child(2) {
+            left: 40%;
+            animation-delay: 0.5s;
+        }
+        .firework:nth-child(3) {
+            left: 60%;
+            animation-delay: 1s;
+        }
+        .firework:nth-child(4) {
+            left: 80%;
+            animation-delay: 1.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>CV te desea ¡FELIZ 2025!</h1>
+    <p>"El año nuevo está lleno de oportunidades, ¡hazlo brillar!"</p>
+    <div class="logo">
+        <!-- Espacio para el logo -->
+        <img src="/ori_3684407_ei2euz2s8q6tp71wrmig7sdvynx2b87a59zudnox_cv-monogram-logo-design.jpg" alt="Logo de CV">
+    </div>
+
+    <div class="firework"></div>
+    <div class="firework"></div>
+    <div class="firework"></div>
+    <div class="firework"></div>
+</body>
+</html>
